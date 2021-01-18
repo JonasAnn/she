@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-image: url("./img/LANDING\ PG\ -\ BACKGROUND.png");
+    background-size: cover;
+    width: 50%;
+    margin: 2rem auto;
+    height: auto;
+    padding: 1.5rem 0 0;
+    position: relative;
+}
+
+.titlebox{
+    width: 80%;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.titlebox__image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.titlebox__header{
+    width: 70%;
+    margin: 0 auto -2.5rem;
+    position: relative;
+    z-index: 3;
+}
+
+.titlebox__header--image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;  
+}
+
+.model{
+    width: 70%;
+    margin: -8rem 0 0 0;
+    position: relative;
+    z-index: 10;
+}
+
+.model__image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.quote{
+    width: 55%;
+    position: absolute;
+    right: -1.5rem;
+    bottom: -7rem;
+}
+
+.quote__image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.dinner{
+    position: absolute;
+    right: 8rem;
+    bottom: 18.5rem;
+    width: 40%;
+}
+
+.dinner__link{
+    text-decoration: none;
+}
+
+.dinner__image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.lounge{
+    position: absolute;
+    right: 2rem;
+    bottom: 10.5rem;
+    width: 40%;
+}
+
+.lounge__link{
+    text-decoration: none;
+}
+
+.lounge__image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.location{
+    width: 42%;
+    position: absolute;
+    right: 3rem;
+    bottom: 1rem;
+    z-index: 11;
+}
+
+.location__image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 900px){
+    .main{
+        width: 80%;
+        padding: .5rem 0 0;
+    }
+    .quote{
+        width: 45%;
+        bottom: -5rem;
+    } 
+    .dinner{
+        right: 6.8rem;
+        bottom: 18rem;
+    }
+}
+@media screen and (max-width: 600px){
+    .main{
+        width: 100%;
+        padding: .5rem 0 0;
+    }
+    .titlebox{
+        width: 75%;
+        margin: 1.5rem auto;
+    }
+    
+    .titlebox__header{
+        width: 75%;
+        margin: 0 auto -1.5rem;
+    }
+
+    .model{
+        width: 70%;
+        margin: -4.5rem 0 0 0;
+    }
+
+    .quote{
+        width: 50%;
+        bottom: -4rem;
+    }
+    
+    .dinner{
+        right: 4.8rem;
+        bottom: 12.5rem;
+    }
+
+    .lounge{
+        bottom: 6.5rem;
+    }
+    
+    .location{
+        width: 45%;
+        right: 2rem;
+        bottom: 0.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .quote{
+        width: 45%;
+        bottom: -3rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .quote{
+        width: 45%;
+        bottom: -2.5rem;
+    }
+    .dinner{
+        right: 3.3rem;
+        bottom: 10rem;
+    }
+    .lounge{
+        bottom: 5.5rem;
+    }
+}
