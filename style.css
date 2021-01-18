@@ -69,9 +69,10 @@
 
 .dinner{
     position: absolute;
-    right: 8rem;
-    bottom: 18.5rem;
+    right: 5.5rem;
+    bottom: 19rem;
     width: 40%;
+    z-index: 12;
 }
 
 .dinner__link{
@@ -124,7 +125,7 @@
         bottom: -5rem;
     } 
     .dinner{
-        right: 6.8rem;
+        right: 4.8rem;
         bottom: 18rem;
     }
 }
@@ -154,7 +155,7 @@
     }
     
     .dinner{
-        right: 4.8rem;
+        right: 3rem;
         bottom: 12.5rem;
     }
 
@@ -183,7 +184,7 @@
         bottom: -2.5rem;
     }
     .dinner{
-        right: 3.3rem;
+        right: 2.2rem;
         bottom: 10rem;
     }
     .lounge{
